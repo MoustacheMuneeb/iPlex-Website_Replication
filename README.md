@@ -1,12 +1,59 @@
-# React + Vite
+# iPlex Website Landing Page 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **responsive replication of the iPlex website’s landing page**, built using modern frontend tools including **Vite**, **React**, and **Tailwind CSS**. The goal was to capture the visual style and layout of the original iPlex homepage with clean, component-based code.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- ⚡ **Vite** – fast build tool and development server
+- ⚛️ **React** – for building UI components
+- 🎨 **Tailwind CSS v4** – utility-first CSS framework
+- 🐙 **Git** – version control
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Project Structure
+
+├── public/
+├── src/
+│ ├── assets/ # Images, icons, logos
+│ ├── components/ # Reusable UI components (Navbar, Hero, etc.)
+│ ├── App.jsx
+│ └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+
+---
+
+## ✅ Features
+
+- Fully responsive landing page
+- Mobile-first design
+- Clean code with reusable React components
+- Styled using Tailwind's modern utility classes
+
+---
+
+## 🚧 Future Improvements
+
+- Add additional pages (About, Services, Contact)
+- Improve accessibility and SEO
+- Host on GitHub Pages or custom domain
+
+---
+
+## 📌 Installation & Setup
+
+Clone the repo
+#git clone git@github.com:MoustacheMuneeb/iPlex-Website_Replication.git
+
+# Navigate into the folder
+cd iPlex-Website_Replication
+
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
