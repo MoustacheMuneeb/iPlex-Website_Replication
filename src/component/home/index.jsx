@@ -1,12 +1,13 @@
 import React from 'react'
 import Header from '../share/Header'
-import Section1 from './section1'
+
 import Layout from '../layout'
 import Section2 from './Section2'
 import Projects from './Projects'
 import Section3 from './Section3'
 import Section4 from './Section4'
 import Section5 from './Section5'
+import Section1 from './Section1'
 
 const FirstPage = () => {
   return (
